@@ -1,0 +1,158 @@
+body {
+    background-color: #f0f2f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.flex-item-left {
+    margin-top: 70px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.flex-item-left h1 {
+    color: #1977f2;
+    font-size: 350%;
+    font-weight: bolder;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    color: #7188b5;
+    bottom: 0px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+}
+
+.flex-item-left h1 {
+    color: #1977f2;
+    font-size: 370%;
+    font-weight: bolder;
+}
+
+.flex-item-left h3 {
+    font-size: 180%;
+}
+
+.main-content > .flex-item-left {
+    align-items: center;
+}
+
+.flex-item-right {
+    margin-left: 50px;
+    padding: 15px;
+    width: 35%;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#btn1 {
+    margin-top: 17px;
+}
+
+#btn2 {
+    margin-top: 40px;
+    font-size: medium;
+    width: 60%;
+    margin: auto;
+    background-color: #58b82c;
+    color: #ffffff;
+}
+
+form p {
+    text-align: center;
+    color: #1977f2;
+    margin-top: 12px;
+}
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+@media (max-width: 800px) {
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+    }
+}
+
+/** Modal form */
+#modal {
+    position: relative;
+    border-radius: 10px;
+    top: -410px;
+    width: 450px;
+    margin: auto;
+    left: auto;
+}
+
+.model {
+    display: none;
+}
+
+.modal > .modal-body {
+    margin: -5px;
+}
+
+#form-row div {
+    border: 1px solid #ecdbdb;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+#form-row {
+    margin-left: 4px;
+}
+
+#form-row input {
+    padding-left: 3px;
+}
+
+.form-row > .form-group {
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .flex-item-left {
+        margin-top: 50px;
+        width: 60%;
+        margin: auto;
+    }
+
+    .flex-item-right {
+        border-radius: 7px;
+        width: 85%;
+        margin: auto;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        background-color: #ffffff;
+        color: #7188b5;
+        bottom: 0px;
+        margin-top: 25px;
+        margin-bottom: -10px;
+    }
+}
+
+footer p {
+    word-spacing: 10px;
+    width: 75%;
+    margin: auto;
+    cursor: pointer;
+}
+
+footer > .copyright {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    word-spacing: 0px;
+}
